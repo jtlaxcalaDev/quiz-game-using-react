@@ -1,0 +1,7 @@
+.question-separator {
+  margin-top: .8rem;
+}
+
+.answers {
+  display: flex;
+}

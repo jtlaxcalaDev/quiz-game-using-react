@@ -1,0 +1,43 @@
+.answers {
+  margin-top: .6rem;
+}
+
+button {
+  background: none;
+  border-style: none;
+}
+
+.option {
+  font-size: .8rem;
+  margin-right: 1.2rem;
+  border: 1px solid #293264;
+  color: #293264;
+  padding: .3rem .6rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.selected-option {
+  background-color: #293264;
+  color: #F5F7FB;
+  transition: .4s;
+}
+
+.incorrect-selection {
+  border: none;
+  background-color: lightpink;
+  font-weight: 500;
+  pointer-events: none;
+}
+
+.correct-answer {
+  border: none;
+  background-color: lightgreen;
+  font-weight: 500;
+  pointer-events: none;
+}
+
+.unselected-answer {
+  opacity: 40%;
+  pointer-events: none;
+}

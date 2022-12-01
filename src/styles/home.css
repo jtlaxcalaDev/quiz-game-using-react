@@ -1,0 +1,24 @@
+.title {
+  line-height: .4em;
+  letter-spacing: 2px;
+  color: #293264;
+}
+
+.description {
+  margin-bottom: 2rem;
+  color: #293264;
+}
+
+.cta-start-quiz {
+  background-color: #e07a5f;
+  color: #F5F7FB;
+  padding: 1rem 3rem;
+  text-decoration: none;
+  border-radius: 16px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.cta-start-quiz:hover {
+  opacity: 88%;
+}
